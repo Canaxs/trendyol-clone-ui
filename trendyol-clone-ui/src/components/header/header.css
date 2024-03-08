@@ -1,0 +1,32 @@
+body {
+
+}
+.header-top ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #999;
+    cursor: pointer;
+}
+.search {
+    width: 100%;
+    display: flex;
+}
+.search input {
+    width: 100%;
+    background: #f3f3f3;
+    font-size: 14px;
+    color: #333;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 10px 40px 10px 15px;
+    transition: all .3s ease;
+    outline: none;
+}
+.search i {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 30px;
+}
