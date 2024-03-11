@@ -40,6 +40,10 @@ body {
     font-size: 13px;
     text-decoration: none;
     color: #333;
+    transition: .1s ease;
+}
+.account-wrapper a:hover{
+    color: #f27d1f;
 }
 .account-wrapper span {
     margin-left: 3px;
