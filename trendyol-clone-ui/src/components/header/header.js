@@ -3,13 +3,13 @@ import './header.css';
 import HeaderBottom from "./header-bottom/header-bottom";
 import HeaderNavigation from "./navigation/header-navigation";
 
-function Header() {
+function Header(props) {
     return (
         <div className="header">
             <div className="header-main d-flex justify-content-center">
                 <div className="wrapper col-8">
                     <HeaderTop />
-                    <HeaderBottom />
+                    <HeaderBottom stickyBool={props.stickyBool}/>
                 </div>
             </div>
             <div className="header-navigate d-flex justify-content-center">

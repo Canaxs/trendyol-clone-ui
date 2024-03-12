@@ -1,17 +1,15 @@
 import './App.css';
-import Header from "./components/header/header";
-import Slider from "./components/slider/slider";
-import Widget from "./components/widget/widget";
-import SpecialProduct from "./components/special-product/special-product";
+import {Route, Router, Routes} from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Slider />
-      <Widget />
-      <SpecialProduct />
-    </div>
+      <Router location={""} navigator={""}>
+        <Routes>
+            <Route exact path="/home" element={<Home />} />
+            <Route path="*" element={<Home/>} />
+        </Routes>
+      </Router>
   );
 }
 

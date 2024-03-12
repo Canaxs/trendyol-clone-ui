@@ -11,7 +11,7 @@
     width: auto !important;
 }
 .card {
-    height: 355px !important;
+    height: auto !important;
     border-radius: 6px;
     width: 225px !important;
     border: solid 1px #e6e6e6;
@@ -55,11 +55,17 @@
     justify-content: center;
     font-weight: 500;
     position: relative;
-    bottom: 2px;
+    top: 8px;
 }
 .promotion i {
     font-size: 13px;
     color: #ff4988;
     position: relative;
     right: 2px;
+}
+.card-text span i {
+    font-size: 10px;
+    color: #FFC000;
+    position: relative;
+    bottom: 2px;
 }

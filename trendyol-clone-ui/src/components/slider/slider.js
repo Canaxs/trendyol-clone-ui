@@ -71,8 +71,8 @@ function Slider() {
         <div className="slider-base d-flex justify-content-center">
             <div className="col-8">
             <OwlCarousel loop={false} items={10} dots={false} nav margin={10} navText={['<i class="bi bi-arrow-left"></i>','<i class="bi bi-arrow-right"></i>']}>
-                    {items.map(item => (
-                        <div className='item'>
+                    {items.map((item,key) => (
+                        <div className='item' key={key}>
                             <a href="#">
                                 <img
                                     src={item.src}

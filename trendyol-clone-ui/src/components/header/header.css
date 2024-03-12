@@ -68,6 +68,16 @@ body {
     width: 30px;
     text-transform: initial !important;
 }
+.sticky-header {
+    transition: .7s ease;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;
+}
 .navigation ul {
     list-style: none;
     display: flex;
