@@ -12,7 +12,7 @@ function SpecialProduct(props) {
                 </div>
                 <OwlCarousel loop={false} items={5} dots={false} nav margin={10}
                              navText={['<i class="bi bi-arrow-left"></i>', '<i class="bi bi-arrow-right"></i>']}>
-                    {props.items.map((item,index) => (
+                    {props.items.map((item,index) => props.type === item.type ? (
                         <div className='slider-item' key={index}>
                             <div className="card">
                                 <div className="d-flex justify-content-center">
@@ -41,7 +41,9 @@ function SpecialProduct(props) {
                                 </div>
                             </div>
                         </div>
-                    ))}
+                    ) : ("")
+
+                    )}
                 </OwlCarousel>
             </div>
         </div>

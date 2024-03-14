@@ -1,15 +1,16 @@
 import './App.css';
-import {Route, Router, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 import Home from "./pages/Home/Home";
+import Product from "./pages/ProductPage/Product";
 
 function App() {
   return (
-      <Router location={""} navigator={""}>
+      <BrowserRouter>
         <Routes>
-            <Route exact path="/home" element={<Home />} />
-            <Route path="*" element={<Home/>} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/product/:productId" element={<Product />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
   );
 }
 

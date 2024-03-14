@@ -9,11 +9,14 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "jquery/dist/jquery.slim.min";
 import "jquery/dist/jquery.slim";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import TrendyolProvider from "./provider/TrendyolProvider";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <TrendyolProvider>
+          <App />
+      </TrendyolProvider>
   </React.StrictMode>
 );
 
