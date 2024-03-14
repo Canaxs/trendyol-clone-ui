@@ -1,8 +1,15 @@
 import './special.css';
 import {useState} from "react";
 import OwlCarousel from "react-owl-carousel";
+import {redirect, useNavigate} from "react-router-dom";
 
 function SpecialProduct(props) {
+
+    let navigate = useNavigate();
+
+    let redirectPage = (id) => {
+        navigate("/product/"+id);
+    }
 
     return (
         <div className="slider-base d-flex justify-content-center">
@@ -14,14 +21,14 @@ function SpecialProduct(props) {
                              navText={['<i class="bi bi-arrow-left"></i>', '<i class="bi bi-arrow-right"></i>']}>
                     {props.items.map((item,index) => props.type === item.type ? (
                         <div className='slider-item' key={index}>
-                            <div className="card">
-                                <div className="d-flex justify-content-center">
+                            <div className="card w-100" onClick={() => redirectPage(item.id)}>
+                                <div className="d-flex justify-content-center w-100">
                                     <img className="card-img-top" src={item.src} alt={item.title}/>
                                 </div>
-                                <div className="card-body">
-                                    <span className="card-title text-start"><bold>{item.brand}</bold>
+                                <div className="card-body w-100">
+                                    <span className="card-title text-start w-100"><bold>{item.brand}</bold>
                                         {item.title}</span>
-                                    <p className="card-text text-start"><span className="text-black">{item.point} <i
+                                    <p className="card-text text-start w-100"><span className="text-black">{item.point} <i
                                         className="bi bi-star-fill"></i>
                                         <i className="bi bi-star-fill"></i>
                                         <i className="bi bi-star-fill"></i>
