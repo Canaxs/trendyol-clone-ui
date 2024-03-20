@@ -4,7 +4,7 @@ import OwlCarousel from "react-owl-carousel";
 function ProductTop(props) {
     return(
         <div className="product-top d-flex justify-content-center">
-            <div className="d-flex">
+            <div className="col-8 d-flex">
                 <div className="col-4">
                     <div className="product-image-carousel">
                         <OwlCarousel loop={false} items={1} dots={false} nav margin={10}
@@ -51,6 +51,30 @@ function ProductTop(props) {
                             <div className="cargo-text">
                                 <p>9 saat 18 dakika içinde sipariş verirsen <span>en geç yarın</span> kargoda!</p>
                             </div>
+                            <div className="product-coupon">
+                                <p>Kuponlar</p>
+                                <div className="coupon-box d-flex">
+                                    <div className="coupon">
+                                        <span>%10</span>
+                                    </div>
+                                    <div className="coupon">
+                                        <span>%15</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="highlighted-features">
+                                <p>Öne Çıkan Özellikler</p>
+                                <ul>
+                                    <li>Bu ürün Trendyol Mağaza tarafından gönderilecektir.</li>
+                                    <li>Kampanya fiyatından satılmak üzere 100 adetten fazla stok sunulmuştur.</li>
+                                    <li>İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir.</li>
+                                    <li>Bir ürün, birden fazla satıcı tarafından satılabilir.
+                                        Birden fazla satıcı tarafından satışa sunulan ürünlerin satıcıları ürün için belirledikleri fiyata,
+                                        satıcı puanlarına, teslimat statülerine, ürünlerdeki promosyonlara, kargonun bedava olup olmamasına ve
+                                        ürünlerin hızlı teslimat ile teslim edilip edilememesine, ürünlerin stok ve kategorileri bilgilerine göre
+                                        sıralanmaktadır.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,6 +94,9 @@ function ProductTop(props) {
                                 <p className="mx-2">Satıcı Soruları</p>
                             </div>
                         </div>
+                    </div>
+                    <div className="comment-box">
+
                     </div>
                 </div>
             </div>
