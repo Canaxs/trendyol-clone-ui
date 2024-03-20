@@ -4,7 +4,7 @@ import Box from "./box/box";
 function ProductTwoBox(props) {
     return(
         <div className="d-flex justify-content-center mt-4">
-            <div className="col-8">
+            <div style={{width: "1200px"}}>
                 <div className="d-flex" style={{marginBottom: "25px"}}>
                     <Box
                         image={props.product.img1} />

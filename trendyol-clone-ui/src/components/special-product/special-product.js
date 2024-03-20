@@ -13,7 +13,7 @@ function SpecialProduct(props) {
 
     return (
         <div className="slider-base d-flex justify-content-center">
-            <div className="slider-widget col-8">
+            <div className="slider-widget" style={{width: "1200px"}}>
                 <div className="slider-widget-title">
                   <span>{props.title}</span>
                 </div>

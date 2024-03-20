@@ -3,7 +3,7 @@ import './widget.css';
 function Widget() {
     return(
         <div className="widget">
-            <div className="widget-items col-8">
+            <div className="widget-items" style={{width: "1200px"}}>
                 <div className="widget-item">
                     <a href="#">
                         <span>Sepete En Çok Eklenenler</span>

@@ -5,7 +5,7 @@ function ProductBox(props) {
 
     return(
         <div className="d-flex justify-content-center mt-4">
-            <div className="col-8">
+            <div style={{width: "1200px"}}>
                 {props.products.map((item,index) => (
                     <div className="d-flex" style={{marginBottom: "25px"}} key={index}>
                         <Box

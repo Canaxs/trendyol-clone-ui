@@ -69,7 +69,7 @@ function Slider() {
 
     return(
         <div className="slider-base d-flex justify-content-center">
-            <div className="col-8">
+            <div style={{width: "1200px"}}>
             <OwlCarousel loop={false} items={10} dots={false} nav margin={10} navText={['<i class="bi bi-arrow-left"></i>','<i class="bi bi-arrow-right"></i>']}>
                     {items.map((item,key) => (
                         <div className='item' key={key}>

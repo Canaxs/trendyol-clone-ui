@@ -4,7 +4,7 @@ import OwlCarousel from "react-owl-carousel";
 function ProductTop(props) {
     return(
         <div className="product-top d-flex justify-content-center">
-            <div className="col-8 d-flex">
+            <div className="d-flex">
                 <div className="col-4">
                     <div className="product-image-carousel">
                         <OwlCarousel loop={false} items={1} dots={false} nav margin={10}

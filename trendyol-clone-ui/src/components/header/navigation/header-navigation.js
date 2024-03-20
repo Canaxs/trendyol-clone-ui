@@ -9,7 +9,7 @@ function HeaderNavigation() {
     }
 
     return (
-        <div className="header-navigation d-flex position-relative justify-content-between align-items-center mt-lg-2">
+        <div className="header-navigation d-flex position-relative align-items-center mt-lg-2">
             <div className="side-menu col-2">
                 <div className="side-menu-button d-flex justify-content-center align-items-center float-start"
                      onMouseEnter={handleDrop}>
@@ -133,7 +133,7 @@ function HeaderNavigation() {
                     </div>
                 </div>
             </div>
-            <div className="navigation col-9">
+            <div className="navigation">
                 <ul>
                     <li><a href="#">Kadın</a></li>
                     <li><a href="#">Erkek</a></li>
