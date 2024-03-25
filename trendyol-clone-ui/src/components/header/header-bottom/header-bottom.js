@@ -6,7 +6,7 @@ function HeaderBottom(props) {
             <div className={props.stickyBool ? "sticky-header col-8" : "header-bottom d-flex align-items-center justify-content-between w-100"}>
                 <div className="col-2">
                     <div className="logo">
-                        <img style={{width: "146px"}} src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol" className="float-start" />
+                        <a href="/home"><img style={{width: "146px"}} src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol" className="float-start" /> </a>
                     </div>
                 </div>
                 <div className="col-6 position-relative">

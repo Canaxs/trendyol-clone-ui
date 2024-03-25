@@ -12,7 +12,8 @@ const productData = [
         img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
         img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
         evaluation: "87663",
-        questionAnswer: "2543"
+        questionAnswer: "2543",
+        category: "Kozmetik"
     },
     {
         id: 2,
@@ -25,7 +26,8 @@ const productData = [
         img1: "https://cdn.dsmcdn.com/ty831/product/media/images/20230417/12/326939821/60355429/2/2_org_zoom.jpg",
         img2: "https://cdn.dsmcdn.com/ty833/product/media/images/20230417/12/326940377/60355429/2/2_org_zoom.jpg",
         evaluation: "87663",
-        questionAnswer: "2543"
+        questionAnswer: "2543",
+        category: "Kozmetik"
     },
     {
         id: 3,
@@ -38,7 +40,8 @@ const productData = [
         img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
         img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
         evaluation: "54325",
-        questionAnswer: "3245"
+        questionAnswer: "3245",
+        category: "Kadın"
     },
     {
         id: 4,
@@ -51,7 +54,8 @@ const productData = [
         img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
         img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
         evaluation: "96423",
-        questionAnswer: "4521"
+        questionAnswer: "4521",
+        category: "Kozmetik"
     },
     {
         id: 5,
@@ -64,7 +68,8 @@ const productData = [
         img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
         img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
         evaluation: "34567",
-        questionAnswer: "4321"
+        questionAnswer: "4321",
+        category: "Kozmetik"
     },
     {
         id: 6,
@@ -77,7 +82,8 @@ const productData = [
         img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
         img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
         evaluation: "34567",
-        questionAnswer: "3212"
+        questionAnswer: "3212",
+        category: "Kadın"
     },
     {
         id: 7,
@@ -86,7 +92,10 @@ const productData = [
         title: " 122 Oriental Edp 50Ml Kadın Parfüm",
         point: "4.6",
         price: "290 TL",
-        type: "Special"
+        type: "Special",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "Kozmetik"
     },
     {
         id: 8,
@@ -95,7 +104,10 @@ const productData = [
         title: " Aşırı Yıpranmış Saçlara Özel",
         point: "4.5",
         price: "340 TL",
-        type: "Special"
+        type: "Special",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "Kozmetik"
     },
     {
         id: 9,
@@ -104,7 +116,10 @@ const productData = [
         title: " Koyu Bordopamuklu Pijama Takım",
         point: "4.3",
         price: "289,99 TL",
-        type: "Special"
+        type: "Special",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
     {
         id: 10,
@@ -113,7 +128,10 @@ const productData = [
         title: " Line Kadın Likralı Cırt Kapama Siyah",
         point: "4.4",
         price: "469 TL",
-        type: "Best"
+        type: "Best",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
     {
         id: 11,
@@ -122,7 +140,10 @@ const productData = [
         title: " Palazzo Pantalon Oversize Orjinal Kesim",
         point: "4.4",
         price: "269 TL",
-        type: "Best"
+        type: "Best",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
     {
         id: 12,
@@ -131,7 +152,10 @@ const productData = [
         title: " 5'Li Sevimli Pamuk Kadın Patik",
         point: "4.2",
         price: "99,99 TL",
-        type: "Best"
+        type: "Best",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
     {
         id: 13,
@@ -140,7 +164,10 @@ const productData = [
         title: " Line Kadın Likralı Cırt Kapama Siyah",
         point: "4.4",
         price: "469 TL",
-        type: "Best"
+        type: "Best",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
     {
         id: 14,
@@ -149,7 +176,10 @@ const productData = [
         title: " Palazzo Pantalon Oversize Orjinal Kesim",
         point: "4.4",
         price: "269 TL",
-        type: "Best"
+        type: "Best",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
     {
         id: 15,
@@ -158,7 +188,10 @@ const productData = [
         title: " 5'Li Sevimli Pamuk Kadın Patik",
         point: "4.2",
         price: "99,99 TL",
-        type: "Best"
+        type: "Best",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
     {
         id: 16,
@@ -167,7 +200,10 @@ const productData = [
         title: " Line Kadın Likralı Cırt Kapama Siyah",
         point: "4.4",
         price: "469 TL",
-        type: "Best"
+        type: "Best",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
     {
         id: 17,
@@ -176,7 +212,10 @@ const productData = [
         title: " Palazzo Pantalon Oversize Orjinal Kesim",
         point: "4.4",
         price: "269 TL",
-        type: "Best"
+        type: "Best",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
     {
         id: 18,
@@ -185,7 +224,10 @@ const productData = [
         title: " 5'Li Sevimli Pamuk Kadın Patik",
         point: "4.2",
         price: "99,99 TL",
-        type: "Best"
+        type: "Best",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "kadın"
     },
 ];
 

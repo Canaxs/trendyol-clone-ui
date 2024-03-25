@@ -135,16 +135,16 @@ function HeaderNavigation() {
             </div>
             <div className="navigation">
                 <ul>
-                    <li><a href="#">Kadın</a></li>
-                    <li><a href="#">Erkek</a></li>
-                    <li><a href="#">Anne & Çocuk</a></li>
-                    <li><a href="#">Ev & Yaşam</a></li>
-                    <li><a href="#">Süpermarket</a></li>
-                    <li><a href="#">Kozmetik</a></li>
-                    <li><a href="#">Ayakkabı & Çanta</a></li>
-                    <li><a href="#">Elektronik</a></li>
-                    <li><a href="#">Çok Satanlar <span className="new-badge">Yeni</span></a></li>
-                    <li><a href="#">Flaş Ürünler <span className="new-badge">Yeni</span></a></li>
+                    <li><a href="/nav/kadın">Kadın</a></li>
+                    <li><a href="/nav/erkek">Erkek</a></li>
+                    <li><a href="/nav/anne-cocuk">Anne & Çocuk</a></li>
+                    <li><a href="/nav/ev-yasam">Ev & Yaşam</a></li>
+                    <li><a href="/nav/supermarket">Süpermarket</a></li>
+                    <li><a href="/nav/kozmetik">Kozmetik</a></li>
+                    <li><a href="/nav/ayakkabı-canta">Ayakkabı & Çanta</a></li>
+                    <li><a href="/nav/elektronik">Elektronik</a></li>
+                    <li><a href="/nav/cok-satanlar">Çok Satanlar <span className="new-badge">Yeni</span></a></li>
+                    <li><a href="/nav/flas-urunler">Flaş Ürünler <span className="new-badge">Yeni</span></a></li>
                 </ul>
             </div>
         </div>

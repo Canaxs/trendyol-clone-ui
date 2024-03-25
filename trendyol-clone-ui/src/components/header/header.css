@@ -104,6 +104,9 @@ body {
     font-size: 14px;
     letter-spacing: 0.18px;
 }
+.navigation ul li a:hover {
+    color: #f27d1f;
+}
 .side-menu-button {
     height: 34px;
     cursor: pointer;
