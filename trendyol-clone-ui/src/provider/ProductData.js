@@ -350,7 +350,7 @@ const productData = [
         category: "ayakkabı-canta"
     },
     {
-        id: 28,
+        id: 29,
         src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
         brand: "LFJ",
         title: " Elektronik Ürünü",

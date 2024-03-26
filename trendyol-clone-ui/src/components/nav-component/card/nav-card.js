@@ -1,9 +1,16 @@
-
+import {useNavigate} from "react-router-dom";
 
 
 function NavCard(props) {
+
+    let navigate = useNavigate();
+
+    let redirectPage = (id) => {
+        navigate("/product/"+id);
+    }
+
     return (
-        <div className="card m-2">
+        <div className="card m-2" onClick={() => redirectPage(props.navItem.id)}>
             <div className="d-flex justify-content-center w-100">
                 <img className="card-img-top" src={props.navItem.img1} alt={props.navItem.title}/>
             </div>
