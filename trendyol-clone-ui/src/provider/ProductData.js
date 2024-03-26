@@ -229,6 +229,138 @@ const productData = [
         img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
         category: "kadın"
     },
+    {
+        id: 19,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " 7'Li Sevimli Pamuk Erkek Patik",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "erkek"
+    },
+    {
+        id: 20,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " 7'Li Sevimli Pamuk Erkek Patik",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "erkek"
+    },
+    {
+        id: 21,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " 7'Li Sevimli Pamuk Erkek Patik",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "erkek"
+    },
+    {
+        id: 22,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " Anne Cocuk Ürünü",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "anne-cocuk"
+    },
+    {
+        id: 23,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " Anne Cocuk Ürünü",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "anne-cocuk"
+    },
+    {
+        id: 24,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " Ev Ürünü",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "ev-yasam"
+    },
+    {
+        id: 25,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " Ev Ürünü",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "ev-yasam"
+    },
+    {
+        id: 26,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " Supermarket Ürünü",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "supermarket"
+    },
+    {
+        id: 27,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " Supermarket Ürünü",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "supermarket"
+    },
+    {
+        id: 28,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " Ayakkabı Ürünü",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "ayakkabı-canta"
+    },
+    {
+        id: 28,
+        src: "https://cdn.dsmcdn.com/ty1159/product/media/images/prod/SPM/PIM/20240127/17/e1a110c1-a771-3c7d-b81e-eb6b56ea0c13/1_org.jpg",
+        brand: "LFJ",
+        title: " Elektronik Ürünü",
+        point: "4.2",
+        price: "99,99 TL",
+        type: "",
+        img1: "https://cdn.dsmcdn.com/ty982/product/media/images/20230808/19/401323368/61116150/3/3_org_zoom.jpg",
+        img2: "https://cdn.dsmcdn.com/ty981/product/media/images/20230808/19/401323368/61116150/5/5_org_zoom.jpg",
+        category: "elektronik"
+    },
 ];
 
 export default productData;
