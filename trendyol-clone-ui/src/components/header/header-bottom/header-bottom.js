@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 function HeaderBottom(props) {
 
     return (
-            <div className={props.stickyBool ? "sticky-header col-8" : "header-bottom d-flex align-items-center justify-content-between w-100"}>
+            <div className={props.stickyBool ? "sticky-header" : "header-bottom d-flex align-items-center justify-content-between w-100"}>
                 <div className="col-2">
                     <div className="logo">
                         <a href="/home"><img style={{width: "146px"}} src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol" className="float-start" /> </a>
