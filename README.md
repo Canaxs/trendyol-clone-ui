@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Canaxs/trendyol-clone-ui">
-    <img src="https://www.cdnlogo.com/logos/t/78/trendyol-stayhome.svg" alt="Logo" width="15" heigh="150">
+    <img src="https://www.cdnlogo.com/logos/t/78/trendyol-stayhome.svg" alt="Logo" width="150" height="150">
   </a>
 
 <h3 align="center">Trendyol Clone UI</h3>
